@@ -45,6 +45,11 @@ main {
   transition: all 0.75s;
 }
 
+@media (max-width: 425px) {
+  .player {
+    padding: 10rem 1rem 17rem;
+  }
+}
 /* ELEMENTS */
 .name {
   position: relative;
@@ -99,6 +104,23 @@ main {
   font-size: 3.5rem;
 }
 
+@media (max-width: 425px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .current {
+    padding: 1.2rem;
+  }
+  .current-label {
+    font-size: 1.2rem;
+  }
+  .current-score {
+    font-size: 3rem;
+  }
+  .score {
+    font-size: 6rem;
+  }
+}
 /* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
   position: absolute;
@@ -130,7 +152,7 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  top: 4.5rem;
 }
 .btn--roll {
   top: 39.3rem;
@@ -168,4 +190,29 @@ main {
 
 .hidden {
   display: none;
+}
+
+@media (max-width: 425px) {
+  .btn {
+    padding: 0.5rem 2rem;
+  }
+  .btn::first-letter {
+    font-size: 2rem;
+  }
+  .current {
+    padding: 1.5rem;
+  }
+  .current-label {
+    font-size: 1.2rem;
+  }
+  .btn--roll {
+    top: 45rem;
+  }
+  .btn--hold {
+    top: 51rem;
+  }
+  .dice {
+    top: 22rem;
+    height: 6rem;
+  }
 }
