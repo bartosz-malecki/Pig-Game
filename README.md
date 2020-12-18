@@ -13,3 +13,7 @@ Rules:
 - Player who get 100 points - win!
 
 Have fun ;)
+
+## Live
+
+https://bartosz-malecki.github.io/Pig-Game/
